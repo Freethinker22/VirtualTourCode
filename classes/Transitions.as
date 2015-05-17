@@ -115,7 +115,7 @@
 			imgInCheck(); // Recursive function call if incomingImg isn't loaded
 		}
 		
-		// Pass the ImgDrag class the image ref to setup the dragging feature
+		// Pass the ImgPan class the image ref to setup the panning feature
 		private function setupPanning():void
 		{
 			_imgPan.setImage(_incomingImg);

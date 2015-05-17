@@ -47,7 +47,7 @@
 		private var _countTop:uint; // Used as a counter to count how many images has loaded on the top side
 		private var _countBottom:uint; // Used as a counter to count how many images has loaded on the bottom side
 		private var _id:int; // The current thumb id
-		private var _isTransitioning:Boolean; // Used to as flag to check if the iamges are still tweening or not
+		private var _isTransitioning:Boolean; // Used to as flag to check if the images are still tweening or not
 		private var _centerX:Number; // The center x position of this based on the total width
 		private var _centerY:Number; // The center y position of this based on the total height
 		
@@ -263,8 +263,8 @@
 			var zTop:Number = 0;
 			var zBottom:Number = 0;
 	
-			for(var i:int = 0; i < _numOfImages; i++)
-			{
+			for(var i:int = 0; i < _numOfImages; i++) // *** Dev note: all slides set to center then reOrderSlides puts them in the right
+			{    									  // position once the menu is set up
 				var thumb:Thumb = _thumbArray[i];
 				
 				if(i < id)

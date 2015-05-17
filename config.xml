@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8' ?> 
 <settings>
 <!----------------------------------------- Input for Picture Tour ------------------------------------------------->
 
@@ -233,7 +233,7 @@
 		
 <!---------- Input vars for Music class ---------->
 	<!-- ***** Use HTML form when the agent builds a tour to get this data ***** -->
-	<musicAutoPlay>yes</musicAutoPlay>
+	<musicAutoPlay>no</musicAutoPlay>
 	<song>song.mp3</song>
 	<musicBtnsX>90</musicBtnsX>
 	<musicBtnsY>626</musicBtnsY>
